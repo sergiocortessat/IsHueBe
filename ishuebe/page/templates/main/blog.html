@@ -1,0 +1,16 @@
+{% extends "personal/header.html" %}
+{% block content %}
+{%for key,value in dict1.items%}
+{%for x,y in value.items%}
+{% if x == 'Playfull'%}
+	<p>{{y.2}}</p>
+	<p>{{y.0}}</p>
+{% endif %}
+
+
+{% endfor %}
+{% endfor %}
+
+
+
+{% endblock %}
