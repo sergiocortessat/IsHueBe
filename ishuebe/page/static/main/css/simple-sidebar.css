@@ -161,11 +161,34 @@ a.article:hover {
     transition: all 0.3s;
     position: absolute;
     top: 70px;
-    right: 0;
+    right: 20px;
+    
+}
+
+#list {
+    width: auto;
 }
 
 #content.active {
     width: 100%;
+}
+
+#button-padding {
+    padding: 15px,15px,15px,15px;
+
+}
+
+.btn-grid-color{
+    color: #7386D5 !important ;
+}
+.btn-grid {
+    color: #000;  
+    list-style: none; 
+    padding-left: 50px; 
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 /* ---------------------------------------------------
@@ -187,5 +210,18 @@ a.article:hover {
     }
     #sidebarCollapse span {
         display: block;
+    }
+}
+
+@media (max-width: 1120px){
+    .place2 { 
+        grid-template-columns: repeat(1, 0.5fr);
+        margin-left: 25%;   
+    }
+}
+
+@media (max-width: 375px){
+    .place2 {
+        margin-left: 25%;
     }
 }
