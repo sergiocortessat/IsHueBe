@@ -1,11 +1,35 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request, 'main/index2.html')
+    return render(request, 'main/home.html')
+
+def home(request):
+    return render(request,'main/home.html')
+
+def happy(request):
+    return render(request,'main/happy.html')
+
+def sad(request):
+    return render(request,'main/sad.html')
+
+def angry(request):
+    return render(request,'main/angry.html')
+
+def mad(request):
+    return render(request,'main/mad.html')
+
+def disgusted(request):
+    return render(request,'main/disgusted.html')
+
+def fearfull(request):
+    return render(request,'main/fearfull.html')
+
+def surprised(request):
+    return render(request,'main/surprised.html')
 
 
-def contact(request):
-    return render(request, 'personal/basic.html', {'content':['If you would like to contact me, please email me','hskinsley@gmail.com']})
+def start(request):
+    return render(request, 'main/start.html', {'content':['If you would like to contact me, please email me','hskinsley@gmail.com']})
 
    
 def wheel(request):

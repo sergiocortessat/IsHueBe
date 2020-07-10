@@ -1,23 +1,25 @@
-{% extends "personal/header.html" %}
+{% extends "main/header.html" %}
 
-	{% block content %}
-	<div class="row">
-		<div class = 'test' id="test1">
-		<h3>
-			Hey there. Thanks for giving this website a try....
-		</h3>
-		<h4>
-			<strong> Welcome to 'Free Will'. This is a simple experiment that might boost your day o simply offer you a pleasant time 
-		</strong></h4>
-		<p>
-			Shall we start. All you have to do is to press the 'Start' button. Is quite simple. Just take a deep breath, count to 10 and click 
-			on the first emotion that pops int your mind
-		</p>
-		</div><hr>
+{% block content %}
+	<br>
 
-		<div class = 'test' id="test2">
-			{% include "personal/includes/htmlsnippet.html" %}
-		</div>
+	<h2>Welcome to IsHueBe.</h2>
+	<h5>Thanks for giving this website a try</h5>
+
+	<p><strong> 
+		This is a simple experiment that might boost your day or 
+		simply offer you a pleasant time
+	</strong></p>
 	</div>
-	
+
+	<div class="line"></div>
+
+
+	<center>
+	<li class="btn-grid-color" style="list-style: none;"><a href="/start/"><button type="button"
+		class="btn btn-secondary btn-lg btn-dark">Shall we Start?</button></a>
+	</li>
+	</center>
+
+
 {% endblock %}

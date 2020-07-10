@@ -1,0 +1,37 @@
+{% extends "main/header.html" %}
+{% block content %}
+
+<h2>Great. Lets start</h2>
+<p> All you have to do is to press the 'Start' button. 
+    Is quite simple. Just take a deep breath, count
+	to 10 and click on the first emotion that pops int your mind.</p>
+
+<div class="line"></div>
+
+<ul class="btn-grid">
+    <!--could be a div-->
+    <!--<li class="btn-grid-color" style="bottom: 10px;"><a class="social-icon text-center" target="_blank" href="#">Happy</a></li>-->
+
+    <li class="btn-grid-color"><a href="/happy/"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Happy</button></a>
+    </li>
+    <!--could be a div-->
+    <li class="btn-grid-color"> <a href="/sad/"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Sad</button> </a></li>
+    <li class="btn-grid-color"><a href=/mad/><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Mad</button> </a></li>
+    <li class="btn-grid-color"><a href="//surprised"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Surprised</button>
+        </a></li>
+    <li class="btn-grid-color"><a href="/disgusted/"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Disgusted</a></li>
+    <li class="btn-grid-color"><a href="/fearfull/"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Fearfull</button> </a></li>
+    <li class="btn-grid-color"><a href="/angry/"><button type="button"
+                class="btn btn-secondary btn-block btn-dark btn-lg">Angry</button> </a> </li>
+    <li class="btn-grid-color"><a href="/other/"><button type="button"
+                class="btn btn-secondary btn-block btn btn-lg">Try Others</button> </a> </li>
+
+</ul>
+
+{% endblock%}

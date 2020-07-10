@@ -123,7 +123,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #f6f6f8;
 }
 }
 
@@ -213,15 +213,15 @@ a.article:hover {
     }
 }
 
-@media (max-width: 1120px){
-    .place2 { 
+@media (max-width: 1248px){
+    .btn-grid { 
         grid-template-columns: repeat(1, 0.5fr);
         margin-left: 25%;   
     }
 }
 
 @media (max-width: 375px){
-    .place2 {
+    .btn-grid {
         margin-left: 25%;
     }
 }
