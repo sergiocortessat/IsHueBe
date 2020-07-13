@@ -31,7 +31,9 @@ def surprised(request):
 def start(request):
     return render(request, 'main/start.html', {'content':['If you would like to contact me, please email me','hskinsley@gmail.com']})
 
-   
+def about(request):
+    return render(request, 'main/about.html')
+
 def wheel(request):
 	feelings = {'main':'happy',
 			'second':'preasure',
@@ -55,4 +57,4 @@ def wheel(request):
                 }
 						
 	dict2 = {'dict1':all_feels_list}
-	return render(request, 'personal/blog.html',dict2)
+	return render(request, 'personal/blog.html',dict2) 

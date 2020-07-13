@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^fearfull/', views.fearfull, name='fearfull'),
     url(r'^disgusted/', views.disgusted, name='disgusted'),
     url(r'^surprised/', views.surprised, name='surprised'),
+    url(r'^about/', views.about, name='about'),
     url(r'^blog/', views.wheel, name='wheel'),
     url(r'^start/$', views.start, name='start'),
 ]

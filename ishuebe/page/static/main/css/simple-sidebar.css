@@ -184,11 +184,21 @@ a.article:hover {
 .btn-grid {
     color: #000;  
     list-style: none; 
-    padding-left: 50px; 
+    padding-left: auto;
+    padding-right: auto; 
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+
+.img-container {
+    padding: .25rem;
+    background-color: rgb(14, 0, 0);
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
 
 /* ---------------------------------------------------
@@ -216,12 +226,15 @@ a.article:hover {
 @media (max-width: 1248px){
     .btn-grid { 
         grid-template-columns: repeat(1, 0.5fr);
-        margin-left: 25%;   
+        margin-left: 25%;
+       
+       
     }
 }
 
 @media (max-width: 375px){
     .btn-grid {
-        margin-left: 25%;
+        margin-left: 15%;
+        
     }
 }
