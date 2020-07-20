@@ -201,6 +201,25 @@ a.article:hover {
     height: auto;
 }
 
+.media-grid {
+    color: #000;  
+    list-style: none; 
+    padding-left: auto;
+    padding-right: auto; 
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.item-center-align {
+    align-self: center;
+    justify-self: center;
+}
+
+
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
