@@ -218,6 +218,14 @@ a.article:hover {
     justify-self: center;
 }
 
+.content-center-align {
+    text-align: center;
+}
+
+.content-center-align p#quote {
+    color: black;
+}
+
 
 
 /* ---------------------------------------------------
