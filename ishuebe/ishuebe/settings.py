@@ -25,7 +25,11 @@ SECRET_KEY = '0&1y-%u)(0!uet_ui89^$$cq()7nac(#^$8(fmuiq^szl@@z^k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['192.168.0.80', '192.168.1.80','192.168.100.122','192.168.8.108','192.168.100.122','192.168.1.26','192.168.1.20','192.168.1.23','192.168.8.109','192.168.100.120', '192.168.0.87']
+=======
+ALLOWED_HOSTS = ['192.168.0.80', '192.168.1.80','192.168.100.122','192.168.8.108','192.168.100.122','192.168.1.26','192.168.1.20','192.168.1.23','192.168.8.109','192.168.100.120','ishuebe.pythonanywhere.com']
+>>>>>>> d72abe550614b668ee5ae46650de5814707b702d
 
 
 # Application definition
@@ -74,14 +78,27 @@ WSGI_APPLICATION = 'ishuebe.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'blogPage_data',
+#        'USER': 'wheel',
+#        'PASSWORD': 'Denmark??Horsens.19890216',
+#        'HOST':'localhost',
+#        'PORT':'',
+#    }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blogPage_data', 
-        'USER': 'wheel',
-        'PASSWORD': 'Denmark??Horsens.19890216',
-        'HOST':'localhost',
-        'PORT':'',
+        'NAME': 'ishuebe$blogPage_data',
+        'USER': 'ishuebe',
+        'PASSWORD': 'RGebGKM6cd',
+        'HOST': 'ishuebe.mysql.pythonanywhere-services.com',
+        'TEST': {
+          'NAME': 'ishuebe$test_blogPage_data',
+          }
     }
 }
 
@@ -123,3 +140,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/ishuebe/IsHueBe/ishuebe/page/static'
