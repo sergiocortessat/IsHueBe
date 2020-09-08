@@ -226,11 +226,10 @@ a.article:hover {
     color: black;
 }
 
-.video {
+#video {
+    border: 5px solid black;
     width: "320";
-    height:  "240" ;
-    controls: auto;
-
+    height:  "240";
 }
 
 

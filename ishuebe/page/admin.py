@@ -8,3 +8,4 @@ admin.site.register(Fearful)
 admin.site.register(Disgusted)
 admin.site.register(Angry)
 admin.site.register(Surprised)
+    

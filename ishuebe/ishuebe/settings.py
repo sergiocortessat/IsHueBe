@@ -25,7 +25,7 @@ SECRET_KEY = '0&1y-%u)(0!uet_ui89^$$cq()7nac(#^$8(fmuiq^szl@@z^k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.80', '192.168.1.80','192.168.100.122','192.168.8.108','192.168.100.122','192.168.1.26','192.168.1.20','192.168.1.23','192.168.8.109','192.168.100.120','ishuebe.pythonanywhere.com','192.168.0.87']
+ALLOWED_HOSTS = ['192.168.0.80', '192.168.1.80','192.168.100.122','192.168.8.108','192.168.100.122','192.168.1.26','192.168.1.20','192.168.1.23','192.168.8.109','192.168.100.120','ishuebe.pythonanywhere.com','192.168.0.87','192.168.1.25']
 
 
 # Application definition
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'ishuebe.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -88,8 +88,6 @@ DATABASES = {
 
 '''
 
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -102,7 +100,7 @@ DATABASES = {
           }
     }
 }
-
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
