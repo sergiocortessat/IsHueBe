@@ -52,7 +52,7 @@ Surprise = {
             "Startled":["Shocked","Dismayed"],"Confused":["Disillusioned","Perplexed"],"Amazed":["Astonished","Awe"],"Excited":["Eager","Energetic"]
                 }
                 
-
+# testing commit
 print(Surprise)
 #sad_list = {2:{"Lonely":["Isolated","Abanadoned"],"Vulnerable":["Victimized","Fragile"],"Despair":["Grief","Powerless"],"Guilty":["Ashamed","Remorsefull"],"Depressed":{"Empty","Inferior"},"Hurt":["Dissapointed","Embarrassed"]}}
 
