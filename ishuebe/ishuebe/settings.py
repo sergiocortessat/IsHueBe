@@ -75,14 +75,16 @@ WSGI_APPLICATION = 'ishuebe.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blogPage_data',
-        'USER': 'wheel',
-        'PASSWORD': 'Denmark??Horsens.19890216',
-        'HOST':'localhost',
-        'PORT':'',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST':'127.0.01',
+        'PORT': '3306',
+        
     }
 }
 
@@ -100,7 +102,7 @@ DATABASES = {
           }
     }
 }
-'''
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
