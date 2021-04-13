@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+ishuebe/testing.rb
+ishuebe/wheel_feeling.py
